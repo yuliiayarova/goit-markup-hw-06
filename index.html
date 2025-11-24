@@ -51,6 +51,83 @@
             </li>
           </ul>
         </address>
+        <button class="header-burger" type="button">
+          <svg width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
+        <div class="mobile-menu">
+          <div class="mobile-menu-container">
+            <button class="menu-btn-close btn-close" type="button">
+              <svg class="btn-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="mobile-nav">
+              <ul class="mobile-menu-list">
+                <li>
+                  <a class="mobile-menu-link link" href="./index.html"
+                    >Studio</a
+                  >
+                </li>
+                <li>
+                  <a class="mobile-menu-link link" href="">Portfolio</a>
+                </li>
+                <li>
+                  <a class="mobile-menu-link link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="address">
+              <ul class="mobile-menu-address">
+                <li>
+                  <a
+                    class="mobile-address-link address-link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="mobile-address-link address-link"
+                    href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="menu-social-list">
+              <li class="menu-social-item social-item">
+                <a class="menu-social social" href="">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-item social-item">
+                <a class="menu-social social" href="">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-item social-item">
+                <a class="menu-social social" href="">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="menu-social-item social-item">
+                <a class="menu-social social" href="">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -123,6 +200,10 @@
           <ul class="team-list">
             <li class="team-card">
               <img
+                srcset="
+                  ./images/mark-guerrero.jpg    1x,
+                  ./images/mark-guerrero@2x.jpg 2x
+                "
                 src="./images/mark-guerrero.jpg"
                 alt="Mark Guerrero product designer's photo"
                 width="264"
@@ -165,6 +246,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/tom-ford.jpg 1x, ./images/tom-ford@2x.jpg 2x"
                 src="./images/tom-ford.jpg"
                 alt="Tom Ford frontend developer's photo"
                 width="264"
@@ -207,6 +289,10 @@
             </li>
             <li class="team-card">
               <img
+                srcset="
+                  ./images/camila-garcia.jpg    1x,
+                  ./images/camila-garcia@2x.jpg 2x
+                "
                 src="./images/camila-garcia.jpg"
                 alt="Camila Garcia marketing employee's photo"
                 width="264"
@@ -249,6 +335,10 @@
             </li>
             <li class="team-card">
               <img
+                srcset="
+                  ./images/daniel-wilson.jpg    1x,
+                  ./images/daniel-wilson@2x.jpg 2x
+                "
                 src="./images/daniel-wilson.jpg"
                 alt="Daniel Wilson UI designer's photo"
                 width="264"
@@ -301,6 +391,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/banking-app.jpg    1x,
+                    ./images/banking-app@2x.jpg 2x
+                  "
                   src="./images/banking-app.jpg"
                   alt="screenshorts of banking app"
                   width="360"
@@ -321,6 +415,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/cashless-payments.jpg    1x,
+                    ./images/cashless-payments@2x.jpg 2x
+                  "
                   src="./images/cashless-payments.jpg"
                   alt="the process of cashless payments by phone"
                   width="360"
@@ -341,6 +439,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/meditation-app.jpg    1x,
+                    ./images/meditation-app@2x.jpg 2x
+                  "
                   src="./images/meditation-app.jpg"
                   alt="a laptop and phone with meditation app opened"
                   width="360"
@@ -361,6 +463,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/taxi-service.jpg    1x,
+                    ./images/taxi-service@2x.jpg 2x
+                  "
                   src="./images/taxi-service.jpg"
                   alt="a car steering wheel with taxi's arms"
                   width="360"
@@ -381,6 +487,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/screen-illustrations.jpg    1x,
+                    ./images/screen-illustrations@2x.jpg 2x
+                  "
                   src="./images/screen-illustrations.jpg"
                   alt="the full moon at the screen of phone"
                   width="360"
@@ -401,6 +511,10 @@
               <div class="portfolio-card-thumb">
                 <img
                   class="portfolio-card-image"
+                  srcset="
+                    ./images/online-courses.jpg    1x,
+                    ./images/online-courses@2x.jpg 2x
+                  "
                   src="./images/online-courses.jpg"
                   alt="a girl is listening by earphones and whatching by phone"
                   width="360"
@@ -492,9 +606,9 @@
       </div>
     </footer>
 
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
-        <button class="modal-btn-close" type="button">
+        <button class="modal-btn-close btn-close" type="button">
           <svg class="btn-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
