@@ -368,6 +368,7 @@ button {
 
 .hero-section {
   max-width: 1440px;
+  margin: 0 auto;
   background-color: #2e2f42;
   padding: 72px 0;
   background-image: linear-gradient(
