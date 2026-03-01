@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -134,7 +134,9 @@
       <section class="hero-section section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="button" type="button">Order Service</button>
+          <button class="button js-open-btn" type="button">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -606,9 +608,9 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <div class="modal-overlay js-modal-overlay">
       <div class="modal">
-        <button class="modal-btn-close btn-close" type="button">
+        <button class="modal-btn-close btn-close js-close-btn" type="button">
           <svg class="btn-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -696,5 +698,6 @@
         </form>
       </div>
     </div>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
